@@ -18,7 +18,7 @@ const SearchBar = () => {
 
   return (
     <div className="search-bar">
-      <div>
+      <div className="search-bar-input">
         <input placeholder="Search for a pokemon" onChange={onChange}></input>
       </div>
       <div className="search-bar-btn">
