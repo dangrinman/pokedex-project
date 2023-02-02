@@ -1,12 +1,17 @@
+* {
+  margin: 0px;
+}
+
 nav {
+  height: 100px;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 .navbar-image {
-  width: 64px;
-  display: flex;
+  width: 160px;
 }
 
 .search-bar {
@@ -69,6 +74,8 @@ nav {
 
 .pokemon-img-container{
   padding: 0px 5px;
+  display: flex;
+  align-items: center;
 }
 
 .pokemon-img{

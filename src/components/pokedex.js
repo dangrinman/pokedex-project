@@ -11,17 +11,16 @@ const Pokedex = (props) => {
   };
 
   const nextPage = () => {
-    const nextPage = Math.min(page + 1, total);
+    const nextPage = Math.min(page + 1, total - 1);
     setPage(nextPage);
   };
 
-  console.log("pokedex: ", pokemons);
   return (
     <div>
       <div className="pokedex-header">
         <h1>Pokedex</h1>
         <Pagination
-          page={page}
+          page={page + 1}
           totalPages={total}
           onLeftClick={lastPage}
           onRightClick={nextPage}
