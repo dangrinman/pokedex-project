@@ -141,6 +141,10 @@ nav {
   cursor: pointer;
 }
 
+.footer{
+  margin: 15px;
+}
+
 .App {
   text-align: center;
 }
